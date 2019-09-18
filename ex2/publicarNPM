@@ -1,0 +1,18 @@
+- Criar novo repositório
+- Criar diretórios bin e lib
+- Criar package.json; npm init -y
+- Editar package json
+
+-- preferGlobal: true
+-- bin:{
+    "aula03"
+    }
+-- main:./lib/index.js" (nome do arquivo que vai ser chamado quando executar o comando)
+
+
+
+
+_lib
+|__index.js
+_bin
+|__mymodule.js

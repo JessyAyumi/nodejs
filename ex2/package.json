@@ -1,0 +1,13 @@
+{
+  "name": "calculadora-top",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculadora.js",
+  "bin": {
+    "calcula": "calculadora.js"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
