@@ -10,9 +10,15 @@
 -- main:./lib/index.js" (nome do arquivo que vai ser chamado quando executar o comando)
 
 
-
+node {arquivo}
 
 _lib
 |__index.js
 _bin
 |__mymodule.js
+
+npm login
+npm publish
+
+npm install -g {nome}
+{comando}
