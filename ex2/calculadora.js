@@ -8,7 +8,7 @@ var leitor = readline.createInterface({
 
 var a, b;
 
-leitor.question("Inserir 1º número:", (answer) => {
+leitor.question("Inserir 1º número:", function(answer){
     a = answer;
     leitor.question("Inserir 2º número:", (answer) => {
         b = answer;

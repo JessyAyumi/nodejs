@@ -1,6 +1,6 @@
 {
   "name": "calculadora-top",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "calculadora.js",
   "bin": {
@@ -9,5 +9,8 @@
   "preferGlobal": true,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
 }
