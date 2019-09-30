@@ -6,4 +6,5 @@ const indexController = require('../controllers/index');
 // });
 
 router.get('/', indexController.index);
+router.get('/sair', indexController.sair);
 module.exports = router;

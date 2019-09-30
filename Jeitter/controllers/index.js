@@ -4,3 +4,8 @@ exports.index = (req, res) => {
     else
         res.redirect('/login');
 };
+
+exports.sair = (req,res) =>{
+    req.session.destroy();
+    res.redirect('/login');
+};
